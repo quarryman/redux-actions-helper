@@ -1,0 +1,67 @@
+{
+  "_from": "github:agolovchuk/redux-actions-helper",
+  "_id": "redux-actions-helper@0.0.5",
+  "_inBundle": false,
+  "_location": "/redux-actions-helper",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "redux-actions-helper@github:agolovchuk/redux-actions-helper",
+    "name": "redux-actions-helper",
+    "escapedName": "redux-actions-helper",
+    "rawSpec": "github:agolovchuk/redux-actions-helper",
+    "saveSpec": "github:agolovchuk/redux-actions-helper",
+    "fetchSpec": null,
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "github:agolovchuk/redux-actions-helper#9529ab1345f0143ecfbca0f0831822a02fa19ba5",
+  "_spec": "redux-actions-helper@github:agolovchuk/redux-actions-helper",
+  "_where": "/Users/lelik/workspace/dokka-mobile",
+  "author": {
+    "name": "Alexandr Golovchuk"
+  },
+  "bugs": {
+    "url": "https://github.com/Flash-Card/serialize/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Redux action helpers",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-es5": "^1.3.1",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jest": "^21.18.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-standard": "^3.1.0",
+    "jest": "^23.4.2"
+  },
+  "homepage": "https://github.com/agolovchuk/redux-actions#readme",
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "statements": 100
+      }
+    },
+    "verbose": true,
+    "testURL": "http://localhost/"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "name": "redux-actions-helper",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/agolovchuk/redux-actions.git"
+  },
+  "scripts": {
+    "lint": "eslint *.js test/{**/,}*.js ./lib --ext .js",
+    "test": "jest --coverage && yarn lint",
+    "test:watch": "jest --watchAll"
+  },
+  "version": "0.0.5"
+}
